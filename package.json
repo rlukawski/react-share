@@ -1,6 +1,6 @@
 {
-  "name": "react-share",
-  "version": "5.2.2",
+  "name": "@rs.lukawski/react-share",
+  "version": "5.2.2-1",
   "description": "Social media share buttons and share counts for React.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -11,9 +11,7 @@
     "require": "./dist/index.cjs"
   },
   "sideEffects": false,
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "vite build",
     "build-demo": "vite build --config vite.demo.config.js",
@@ -38,7 +36,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nygardk/react-share"
+    "url": "https://github.com/rlukawski/react-share"
   },
   "author": {
     "name": "Klaus Nygård",
@@ -49,6 +47,10 @@
     {
       "name": "Ari Autio",
       "email": "ari.autio@iki.fi"
+    },
+    {
+      "name": "Rafał Łukawski",
+      "email": "rs.lukawski@gmail.com"
     }
   ],
   "license": "MIT",
