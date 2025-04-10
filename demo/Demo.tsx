@@ -54,6 +54,8 @@ import {
   WhatsappShareButton,
   WorkplaceIcon,
   WorkplaceShareButton,
+  WykopIcon,
+  WykopShareButton,
   XIcon,
 } from '../src';
 
@@ -330,6 +332,17 @@ export function Demo() {
         >
           <BlueskyIcon size={32} round />
         </BlueskyShareButton>
+      </div>
+      <div className="Demo__some-network">
+        <WykopShareButton
+          url={shareUrl}
+          title={title}
+          windowWidth={660}
+          windowHeight={460}
+          className="Demo__some-network__share-button"
+        >
+          <WykopIcon size={32} round />
+        </WykopShareButton>
       </div>
     </div>
   );
